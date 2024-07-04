@@ -21,7 +21,16 @@ const Charts = () => {
 
   useEffect(() => {
     fetchRealtimeDbData().then((realtimeDBData) => {
-      const chartsData = Object.values(realtimeDBData).map((data, index) =>
+    // Convert the object to an array of its values
+    const dataArray = Object.values(realtimeDBData);
+
+        // Filter out entries with null or invalid timestamps
+        const filteredData = dataArray.filter(data => {
+            const timestamp = Date.parse(data.timeStamp);
+            return !isNaN(timestamp);
+        });
+
+      const chartsData = Object.values(filteredData).map((data, index) =>
         convertFirebaseDataToChartsData(
           data,
           Math.floor((index * 1e6 + Date.now()) / 1000)
