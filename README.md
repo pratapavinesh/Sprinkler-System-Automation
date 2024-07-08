@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# <div align="center">Automation of Sprinkler System</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pratapavinesh/Sprinkler-System-Automation/master/src/assets/images/demo.png" alt="Demo" width="600"/>
+</div>
 
-## Available Scripts
+## <div align="center">Overview</div>
 
-In the project directory, you can run:
+This project automates a sprinkler system for open cast coal mines roads, displaying real-time data fetched from Firebase Realtime Database. It visualizes moisture level, dust level, vehicle movement, and valve status over time.
 
-### `npm start`
+## <div align="center">Features</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Real-time Data Visualization**: Displays real-time data for moisture level, dust level, vehicle movement, and sprinkler valve status.
+- **Interactive Time Series Visualization**: Charts show valve status with respect to time axes, providing historical data and trends.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## <div align="center">Technologies Used</div>
 
-### `npm test`
+- **Frontend Framework**: React.js
+- **Database**: Firebase Realtime Database
+- **Visualization**: Chart.js or D3.js
+- **Deployment**: (Mention deployment platform if applicable)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <div align="center">Installation</div>
 
-### `npm run build`
+```bash
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open [http://localhost:3000](http://localhost:3000) to view the application in the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## <div align="center">Usage</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Monitor Real-time Data**: Access the dashboard to monitor current conditions.
+- **Analyze Historical Trends**: Use charts to analyze trends over time.
 
-### `npm run eject`
+## <div align="center">Contributing</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## <div align="center">License</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Distributed under the MIT License. See `LICENSE` for more information.
